@@ -1,0 +1,30 @@
+- This file includes 2 folders name IOS and Windows.
+
+- Since mac users are not able to read the files from Excel, we provided a
+  separate version, with all data included in the mod and dat file and no need for
+  any excell connection for the models in IOS folder.
+
+- IOS folder description:
+
+    - There are 2 folders inside named CP MODELS and MIP MODELS.
+
+    - Both folders include 2 sub-folders for for the Single and Multiple Runways.
+
+    - Each of the sub-folders includes 13 models for airland1 to airland13 (data is uploaded manually in the .mod file).
+
+    - Each model includes the data inside them, so the mac users can easily run the models.
+
+    - All the models for each sub-folder is the same, just the data is different.
+
+    - The MIP models work, however they're not the latest versions as the ones in the Windows folder and in the report.
+
+
+- WINDOWS folder desription:
+
+    - There are 3 folders inside: CP models; Data files; MIP models.
+
+    - CP models folder include 2 sub-folders for for the Single and Multiple Runways.
+
+    - MIP models folder contains the .MOD files for MODEL1 and MODEL2004.
+
+    - The data files folder contains all the .DAT files used in CPLEX, as well as the excel files (created by Python).

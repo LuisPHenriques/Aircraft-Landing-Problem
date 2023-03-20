@@ -1,0 +1,17 @@
+/*********************************************
+ * OPL 22.1.0.0 Data
+ * Author: luish
+ * Creation Date: 28/12/2022 at 21:50:40
+ *********************************************/
+
+SheetConnection airland("C:\\Users\\luish\\Desktop\\RunConfig_With_13DataFiles\\data\\airland2.xlsx");
+
+p     from SheetRead(airland, "Sheet1!A2");      // number of planes
+ft     from SheetRead(airland, "Sheet1!B2");      // freeze time
+at from SheetRead(airland, "Sheet1!C2:C16");  // appearance time
+elt   from SheetRead(airland, "Sheet1!D2:D16");  // earliest landing time
+tlt   from SheetRead(airland, "Sheet1!E2:E16");  // target landing time
+llt   from SheetRead(airland, "Sheet1!F2:F16");  // latest landing time
+lbt  from SheetRead(airland, "Sheet1!G2:G16");  // penalty cost before target time
+lat  from SheetRead(airland, "Sheet1!H2:H16");  // penalty cost after target time
+st from SheetRead(airland, "Sheet1!I2:W16");  // separation time
